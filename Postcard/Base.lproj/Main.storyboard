@@ -101,7 +101,16 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="25" y="91" width="306" height="61"/>
+                                    <rect key="frame" x="25" y="124" width="306" height="28"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="blt-3g-7Ww">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="25" y="83" width="306" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -113,6 +122,7 @@
                                 <exclude reference="6he-Mj-ysB"/>
                                 <exclude reference="gxj-cL-3P1"/>
                                 <exclude reference="E6q-0K-eCL"/>
+                                <exclude reference="blt-3g-7Ww"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -122,6 +132,7 @@
                                 <include reference="6he-Mj-ysB"/>
                                 <include reference="gxj-cL-3P1"/>
                                 <include reference="E6q-0K-eCL"/>
+                                <include reference="blt-3g-7Ww"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="6he-Mj-ysB" id="CX1-qX-2Ic"/>
                         <outlet property="enterNameTextFeild" destination="34e-bg-UUm" id="zec-b9-Uhz"/>
                         <outlet property="messageLable" destination="E6q-0K-eCL" id="yjf-d8-8BF"/>
+                        <outlet property="nameLable" destination="blt-3g-7Ww" id="lbT-3r-3wK"/>
                         <outlet property="sentMailButton" destination="gxj-cL-3P1" id="noo-vE-GAo"/>
                     </connections>
                 </viewController>
