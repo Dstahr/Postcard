@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    //commet to test git hub. 
+    //comment to test git hub. 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         messageLable.hidden = false
         messageLable.text = enterMessageTextField.text
